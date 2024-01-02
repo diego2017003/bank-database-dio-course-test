@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "database-project"
+version = "0.1.0"
+description = ""
+authors = ["diego medeiros <diego.medeiros@geowellex.com>"]
+readme = "README.md"
+packages = [{include = "database_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.6.1"
+sqlalchemy = "^2.0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
